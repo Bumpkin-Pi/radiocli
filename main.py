@@ -1,6 +1,7 @@
 from os import system
 import inquirer
-from stations import *
+import json
+stations = json.load(open('stations.json', 'r'))
 
 def play(url):
 	print("Playing radio with mpv... ")
