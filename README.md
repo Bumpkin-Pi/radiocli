@@ -5,6 +5,5 @@ Simple CLI for listening to http radio
 ```
 https://github.com/Bumpkin-Pi/radiocli.git
 cd radiocli
-pip install -r requirements.txt
 python main.py
 ```
